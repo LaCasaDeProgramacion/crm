@@ -3,6 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FrontSharedModule } from 'projects/front/src/app/app.module';
+import { BackSharedModule } from 'projects/back/src/app/app.module';
+
 
 @NgModule({
   declarations: [
@@ -10,7 +13,9 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BackSharedModule.forRoot(),
+   FrontSharedModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

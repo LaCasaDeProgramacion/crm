@@ -8,6 +8,7 @@ import { HeaderComponent } from './Layout/header/header.component';
 import { FooterComponent } from './Layout/footer/footer.component';
 import { SidebarComponent } from './Layout/sidebar/sidebar.component';
 import { HeadComponent } from './Layout/head/head.component';
+import { ListBrandsComponent } from './Components/Prospecting/Carbrand/list-brands/list-brands.component';
  const providers = [];
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HeadComponent } from './Layout/head/head.component';
     HeaderComponent,
     FooterComponent,
     SidebarComponent,
-    HeadComponent
+    HeadComponent,
+    ListBrandsComponent
 
   ],
   imports: [

@@ -10,6 +10,7 @@ import { BackSharedModule } from 'projects/back/src/app/app.module';
 @NgModule({
   declarations: [
     AppComponent
+
   ],
   imports: [
     BrowserModule,

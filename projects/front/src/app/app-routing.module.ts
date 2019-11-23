@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AppComponent } from 'projects/front/src/app/app.component';
-import { FooterComponent } from './footer/footer.component';
+import { NavBarComponent } from './Layout/nav-bar/nav-bar.component';
+import { FooterComponent } from './Layout/footer/footer.component';
 
 const routes: Routes = [
   { path: 'front', component: AppComponent },
